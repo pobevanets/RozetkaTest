@@ -1,0 +1,26 @@
+.idea/**
+target/**
+selenium-tests.iml
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# ReportNG
+test-output/
+
+# JUnit reports
+build/reports/
+
+# Allure
+.allure
+allure-results
+build
