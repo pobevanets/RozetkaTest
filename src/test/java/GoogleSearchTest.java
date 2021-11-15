@@ -22,7 +22,7 @@ public class GoogleSearchTest {
                 pageNumberWithSearchedLink = i;
                 break;
             }
-            $$("td").findBy(text(String.valueOf(i+1))).click();
+            if (!(i==5)) $$("td").findBy(text(String.valueOf(i+1))).click();
         }
         if (pageNumberWithSearchedLink==0) {
             System.out.println("ALLO.UA not found on first 5 pages");
